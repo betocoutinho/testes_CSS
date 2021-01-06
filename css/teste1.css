@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: #92A8D1;
+}
+
+#bloco-principal{
+    
+    width: 80%;
+    margin: 0 auto;
+    min-width: 400px;
+    max-width: 960px;
+}
+
+#cabecalho{
+    background: #6B5B95;
+    text-align: center;
+    color: #ffffff;
+}
+
+#cabecalho h1{
+    padding: 0.5em;
+
+}
+
+#cabecalho ul{
+    list-style-type: none;
+}
+
+#cabecalho ul li{
+    display: inline-block;
+    padding: 0.5em;
+}
+
+#cabecalho ul li:hover{
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+#conteudo{
+    overflow: hidden;
+    background-color: beige;
+    
+}
+
+#resumo-pessoal{
+    width: 30%;
+    float: left;
+}
+
+#area-postagens{
+    width: 60%;
+    float: right;
+}
+
